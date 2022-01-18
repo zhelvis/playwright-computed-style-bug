@@ -5,8 +5,9 @@ test("Get computed style shorthand property", async ({ page }) => {
 
   const bodyLocator = page.locator("body");
 
+  // returns "" in firefox
   const margin = await bodyLocator.evaluate((body) => {
-    return window.getComputedStyle(body).padding;
+    return window.getComputedStyle(body).margin;
   });
 
   expect(margin).toBe("0px");
