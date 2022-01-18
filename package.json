@@ -1,0 +1,14 @@
+{
+  "name": "playwright-computed-style-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/zhelvis/playwright-computed-style-bug.git",
+  "author": "Vladimir Zhelvis <zhelvisvladimir@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.17.2"
+  }
+}
